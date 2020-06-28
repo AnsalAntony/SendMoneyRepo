@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "lucinda-watts-trainee-solicitor-scotts-wright-square-profile-photo-300x300.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "lucinda-watts-trainee-solicitor-scotts-wright-square-profile-photo-300x300-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "lucinda-watts-trainee-solicitor-scotts-wright-square-profile-photo-300x300-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

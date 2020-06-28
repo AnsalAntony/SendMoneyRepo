@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D10F99524A8A3FB00759FCC /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F98C24A8A3FB00759FCC /* FSPagerView.swift */; };
+		4D10F99624A8A3FB00759FCC /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F98D24A8A3FB00759FCC /* FSPageViewTransformer.swift */; };
+		4D10F99724A8A3FB00759FCC /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F98F24A8A3FB00759FCC /* FSPagerViewCell.swift */; };
+		4D10F99824A8A3FB00759FCC /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F99024A8A3FB00759FCC /* FSPagerViewLayoutAttributes.swift */; };
+		4D10F99924A8A3FB00759FCC /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F99124A8A3FB00759FCC /* FSPageViewLayout.swift */; };
+		4D10F99A24A8A3FB00759FCC /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F99224A8A3FB00759FCC /* FSPageControl.swift */; };
+		4D10F99B24A8A3FB00759FCC /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F99324A8A3FB00759FCC /* FSPagerViewObjcCompat.m */; };
+		4D10F99C24A8A3FB00759FCC /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10F99424A8A3FB00759FCC /* FSPagerCollectionView.swift */; };
+		4D10F9B024A8B10300759FCC /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F99E24A8B10100759FCC /* Poppins-ExtraLightItalic.ttf */; };
+		4D10F9B124A8B10300759FCC /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F99F24A8B10100759FCC /* Poppins-MediumItalic.ttf */; };
+		4D10F9B224A8B10300759FCC /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A024A8B10100759FCC /* Poppins-BlackItalic.ttf */; };
+		4D10F9B324A8B10300759FCC /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A124A8B10100759FCC /* Poppins-ExtraLight.ttf */; };
+		4D10F9B424A8B10300759FCC /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A224A8B10100759FCC /* Poppins-LightItalic.ttf */; };
+		4D10F9B524A8B10300759FCC /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A324A8B10100759FCC /* Poppins-ExtraBold.ttf */; };
+		4D10F9B624A8B10300759FCC /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A424A8B10100759FCC /* Poppins-ExtraBoldItalic.ttf */; };
+		4D10F9B724A8B10300759FCC /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A524A8B10100759FCC /* Poppins-Light.ttf */; };
+		4D10F9B824A8B10300759FCC /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A624A8B10200759FCC /* Poppins-SemiBoldItalic.ttf */; };
+		4D10F9B924A8B10300759FCC /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A724A8B10200759FCC /* Poppins-ThinItalic.ttf */; };
+		4D10F9BA24A8B10300759FCC /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A824A8B10200759FCC /* Poppins-Italic.ttf */; };
+		4D10F9BB24A8B10300759FCC /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9A924A8B10200759FCC /* Poppins-Black.ttf */; };
+		4D10F9BC24A8B10300759FCC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9AA24A8B10200759FCC /* Poppins-Regular.ttf */; };
+		4D10F9BD24A8B10300759FCC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9AB24A8B10200759FCC /* Poppins-Medium.ttf */; };
+		4D10F9BE24A8B10300759FCC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9AC24A8B10200759FCC /* Poppins-Bold.ttf */; };
+		4D10F9BF24A8B10300759FCC /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9AD24A8B10300759FCC /* Poppins-SemiBold.ttf */; };
+		4D10F9C024A8B10300759FCC /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9AE24A8B10300759FCC /* Poppins-Thin.ttf */; };
+		4D10F9C124A8B10300759FCC /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D10F9AF24A8B10300759FCC /* Poppins-BoldItalic.ttf */; };
+		4D56D11424A5D42B0018EF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D56D11324A5D42B0018EF17 /* AppDelegate.swift */; };
+		4D56D11624A5D42B0018EF17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D56D11524A5D42B0018EF17 /* SceneDelegate.swift */; };
+		4D56D11824A5D42B0018EF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D56D11724A5D42B0018EF17 /* ViewController.swift */; };
+		4D56D11B24A5D42B0018EF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D56D11924A5D42B0018EF17 /* Main.storyboard */; };
+		4D56D11E24A5D42B0018EF17 /* SendMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D56D11C24A5D42B0018EF17 /* SendMoney.xcdatamodeld */; };
+		4D56D12024A5D42F0018EF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D56D11F24A5D42F0018EF17 /* Assets.xcassets */; };
+		4D56D12324A5D42F0018EF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D56D12124A5D42F0018EF17 /* LaunchScreen.storyboard */; };
+		4DF1610424A7627E0046FE1D /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1610224A7627E0046FE1D /* TransactionTableViewCell.swift */; };
+		4DF1610524A7627E0046FE1D /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1610324A7627E0046FE1D /* TransactionTableViewCell.xib */; };
+		4DF1610924A788F00046FE1D /* SentToCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1610724A788F00046FE1D /* SentToCollectionViewCell.swift */; };
+		4DF1610A24A788F00046FE1D /* SentToCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1610824A788F00046FE1D /* SentToCollectionViewCell.xib */; };
+		4DF1610D24A78D3B0046FE1D /* ExtensionClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1610C24A78D3B0046FE1D /* ExtensionClasses.swift */; };
+		4DF1611024A7CA040046FE1D /* SendMoneyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1610E24A7CA040046FE1D /* SendMoneyCollectionViewCell.swift */; };
+		4DF1611124A7CA040046FE1D /* SendMoneyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1610F24A7CA040046FE1D /* SendMoneyCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D10F98C24A8A3FB00759FCC /* FSPagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerView.swift; sourceTree = "<group>"; };
+		4D10F98D24A8A3FB00759FCC /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		4D10F98E24A8A3FB00759FCC /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		4D10F98F24A8A3FB00759FCC /* FSPagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewCell.swift; sourceTree = "<group>"; };
+		4D10F99024A8A3FB00759FCC /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		4D10F99124A8A3FB00759FCC /* FSPageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewLayout.swift; sourceTree = "<group>"; };
+		4D10F99224A8A3FB00759FCC /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
+		4D10F99324A8A3FB00759FCC /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
+		4D10F99424A8A3FB00759FCC /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		4D10F99E24A8B10100759FCC /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4D10F99F24A8B10100759FCC /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4D10F9A024A8B10100759FCC /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4D10F9A124A8B10100759FCC /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4D10F9A224A8B10100759FCC /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		4D10F9A324A8B10100759FCC /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4D10F9A424A8B10100759FCC /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4D10F9A524A8B10100759FCC /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		4D10F9A624A8B10200759FCC /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4D10F9A724A8B10200759FCC /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4D10F9A824A8B10200759FCC /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		4D10F9A924A8B10200759FCC /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		4D10F9AA24A8B10200759FCC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		4D10F9AB24A8B10200759FCC /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		4D10F9AC24A8B10200759FCC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		4D10F9AD24A8B10300759FCC /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		4D10F9AE24A8B10300759FCC /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		4D10F9AF24A8B10300759FCC /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4D56D11024A5D42B0018EF17 /* SendMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D56D11324A5D42B0018EF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D56D11524A5D42B0018EF17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D56D11724A5D42B0018EF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D56D11A24A5D42B0018EF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D56D11D24A5D42B0018EF17 /* SendMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SendMoney.xcdatamodel; sourceTree = "<group>"; };
+		4D56D11F24A5D42F0018EF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D56D12224A5D42F0018EF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D56D12424A5D42F0018EF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF1610224A7627E0046FE1D /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		4DF1610324A7627E0046FE1D /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		4DF1610724A788F00046FE1D /* SentToCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentToCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DF1610824A788F00046FE1D /* SentToCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SentToCollectionViewCell.xib; sourceTree = "<group>"; };
+		4DF1610C24A78D3B0046FE1D /* ExtensionClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionClasses.swift; sourceTree = "<group>"; };
+		4DF1610E24A7CA040046FE1D /* SendMoneyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DF1610F24A7CA040046FE1D /* SendMoneyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendMoneyCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D56D10D24A5D42A0018EF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D10F98B24A8A3FB00759FCC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4D10F98C24A8A3FB00759FCC /* FSPagerView.swift */,
+				4D10F98D24A8A3FB00759FCC /* FSPageViewTransformer.swift */,
+				4D10F98E24A8A3FB00759FCC /* FSPagerViewObjcCompat.h */,
+				4D10F98F24A8A3FB00759FCC /* FSPagerViewCell.swift */,
+				4D10F99024A8A3FB00759FCC /* FSPagerViewLayoutAttributes.swift */,
+				4D10F99124A8A3FB00759FCC /* FSPageViewLayout.swift */,
+				4D10F99224A8A3FB00759FCC /* FSPageControl.swift */,
+				4D10F99324A8A3FB00759FCC /* FSPagerViewObjcCompat.m */,
+				4D10F99424A8A3FB00759FCC /* FSPagerCollectionView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4D10F99D24A8B0AF00759FCC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D10F9A924A8B10200759FCC /* Poppins-Black.ttf */,
+				4D10F9A024A8B10100759FCC /* Poppins-BlackItalic.ttf */,
+				4D10F9AC24A8B10200759FCC /* Poppins-Bold.ttf */,
+				4D10F9AF24A8B10300759FCC /* Poppins-BoldItalic.ttf */,
+				4D10F9A324A8B10100759FCC /* Poppins-ExtraBold.ttf */,
+				4D10F9A424A8B10100759FCC /* Poppins-ExtraBoldItalic.ttf */,
+				4D10F9A124A8B10100759FCC /* Poppins-ExtraLight.ttf */,
+				4D10F99E24A8B10100759FCC /* Poppins-ExtraLightItalic.ttf */,
+				4D10F9A824A8B10200759FCC /* Poppins-Italic.ttf */,
+				4D10F9A524A8B10100759FCC /* Poppins-Light.ttf */,
+				4D10F9A224A8B10100759FCC /* Poppins-LightItalic.ttf */,
+				4D10F9AB24A8B10200759FCC /* Poppins-Medium.ttf */,
+				4D10F99F24A8B10100759FCC /* Poppins-MediumItalic.ttf */,
+				4D10F9AA24A8B10200759FCC /* Poppins-Regular.ttf */,
+				4D10F9AD24A8B10300759FCC /* Poppins-SemiBold.ttf */,
+				4D10F9A624A8B10200759FCC /* Poppins-SemiBoldItalic.ttf */,
+				4D10F9AE24A8B10300759FCC /* Poppins-Thin.ttf */,
+				4D10F9A724A8B10200759FCC /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4D56D10724A5D42A0018EF17 = {
+			isa = PBXGroup;
+			children = (
+				4D56D11224A5D42B0018EF17 /* SendMoney */,
+				4D10F98B24A8A3FB00759FCC /* Sources */,
+				4D56D11124A5D42B0018EF17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D56D11124A5D42B0018EF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D56D11024A5D42B0018EF17 /* SendMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D56D11224A5D42B0018EF17 /* SendMoney */ = {
+			isa = PBXGroup;
+			children = (
+				4D10F99D24A8B0AF00759FCC /* Fonts */,
+				4DF1610B24A78D130046FE1D /* ExtensionClasses */,
+				4DF1610624A788BF0046FE1D /* CollectionViewCells */,
+				4DF1610124A7624B0046FE1D /* TableViewCells */,
+				4D56D11324A5D42B0018EF17 /* AppDelegate.swift */,
+				4D56D11524A5D42B0018EF17 /* SceneDelegate.swift */,
+				4D56D11724A5D42B0018EF17 /* ViewController.swift */,
+				4D56D11924A5D42B0018EF17 /* Main.storyboard */,
+				4D56D11F24A5D42F0018EF17 /* Assets.xcassets */,
+				4D56D12124A5D42F0018EF17 /* LaunchScreen.storyboard */,
+				4D56D12424A5D42F0018EF17 /* Info.plist */,
+				4D56D11C24A5D42B0018EF17 /* SendMoney.xcdatamodeld */,
+			);
+			path = SendMoney;
+			sourceTree = "<group>";
+		};
+		4DF1610124A7624B0046FE1D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1610224A7627E0046FE1D /* TransactionTableViewCell.swift */,
+				4DF1610324A7627E0046FE1D /* TransactionTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4DF1610624A788BF0046FE1D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1610724A788F00046FE1D /* SentToCollectionViewCell.swift */,
+				4DF1610824A788F00046FE1D /* SentToCollectionViewCell.xib */,
+				4DF1610E24A7CA040046FE1D /* SendMoneyCollectionViewCell.swift */,
+				4DF1610F24A7CA040046FE1D /* SendMoneyCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		4DF1610B24A78D130046FE1D /* ExtensionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1610C24A78D3B0046FE1D /* ExtensionClasses.swift */,
+			);
+			path = ExtensionClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D56D10F24A5D42A0018EF17 /* SendMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D56D12724A5D42F0018EF17 /* Build configuration list for PBXNativeTarget "SendMoney" */;
+			buildPhases = (
+				4D56D10C24A5D42A0018EF17 /* Sources */,
+				4D56D10D24A5D42A0018EF17 /* Frameworks */,
+				4D56D10E24A5D42A0018EF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendMoney;
+			productName = SendMoney;
+			productReference = 4D56D11024A5D42B0018EF17 /* SendMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D56D10824A5D42A0018EF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ansal Antony";
+				TargetAttributes = {
+					4D56D10F24A5D42A0018EF17 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4D56D10B24A5D42A0018EF17 /* Build configuration list for PBXProject "SendMoney" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D56D10724A5D42A0018EF17;
+			productRefGroup = 4D56D11124A5D42B0018EF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D56D10F24A5D42A0018EF17 /* SendMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D56D10E24A5D42A0018EF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D10F9B324A8B10300759FCC /* Poppins-ExtraLight.ttf in Resources */,
+				4D10F9BA24A8B10300759FCC /* Poppins-Italic.ttf in Resources */,
+				4D10F9B924A8B10300759FCC /* Poppins-ThinItalic.ttf in Resources */,
+				4D56D12324A5D42F0018EF17 /* LaunchScreen.storyboard in Resources */,
+				4D10F9B124A8B10300759FCC /* Poppins-MediumItalic.ttf in Resources */,
+				4D10F9B024A8B10300759FCC /* Poppins-ExtraLightItalic.ttf in Resources */,
+				4D10F9BB24A8B10300759FCC /* Poppins-Black.ttf in Resources */,
+				4D10F9B524A8B10300759FCC /* Poppins-ExtraBold.ttf in Resources */,
+				4D10F9B824A8B10300759FCC /* Poppins-SemiBoldItalic.ttf in Resources */,
+				4D10F9BD24A8B10300759FCC /* Poppins-Medium.ttf in Resources */,
+				4D10F9B624A8B10300759FCC /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				4D56D12024A5D42F0018EF17 /* Assets.xcassets in Resources */,
+				4D10F9B724A8B10300759FCC /* Poppins-Light.ttf in Resources */,
+				4D10F9BF24A8B10300759FCC /* Poppins-SemiBold.ttf in Resources */,
+				4DF1610524A7627E0046FE1D /* TransactionTableViewCell.xib in Resources */,
+				4D10F9C124A8B10300759FCC /* Poppins-BoldItalic.ttf in Resources */,
+				4DF1610A24A788F00046FE1D /* SentToCollectionViewCell.xib in Resources */,
+				4D56D11B24A5D42B0018EF17 /* Main.storyboard in Resources */,
+				4D10F9BE24A8B10300759FCC /* Poppins-Bold.ttf in Resources */,
+				4D10F9B224A8B10300759FCC /* Poppins-BlackItalic.ttf in Resources */,
+				4D10F9C024A8B10300759FCC /* Poppins-Thin.ttf in Resources */,
+				4DF1611124A7CA040046FE1D /* SendMoneyCollectionViewCell.xib in Resources */,
+				4D10F9BC24A8B10300759FCC /* Poppins-Regular.ttf in Resources */,
+				4D10F9B424A8B10300759FCC /* Poppins-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D56D10C24A5D42A0018EF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D56D11E24A5D42B0018EF17 /* SendMoney.xcdatamodeld in Sources */,
+				4D10F99924A8A3FB00759FCC /* FSPageViewLayout.swift in Sources */,
+				4DF1610424A7627E0046FE1D /* TransactionTableViewCell.swift in Sources */,
+				4D10F99624A8A3FB00759FCC /* FSPageViewTransformer.swift in Sources */,
+				4D56D11824A5D42B0018EF17 /* ViewController.swift in Sources */,
+				4D10F99C24A8A3FB00759FCC /* FSPagerCollectionView.swift in Sources */,
+				4D10F99824A8A3FB00759FCC /* FSPagerViewLayoutAttributes.swift in Sources */,
+				4DF1610924A788F00046FE1D /* SentToCollectionViewCell.swift in Sources */,
+				4D10F99A24A8A3FB00759FCC /* FSPageControl.swift in Sources */,
+				4D56D11424A5D42B0018EF17 /* AppDelegate.swift in Sources */,
+				4D10F99524A8A3FB00759FCC /* FSPagerView.swift in Sources */,
+				4D56D11624A5D42B0018EF17 /* SceneDelegate.swift in Sources */,
+				4D10F99B24A8A3FB00759FCC /* FSPagerViewObjcCompat.m in Sources */,
+				4DF1610D24A78D3B0046FE1D /* ExtensionClasses.swift in Sources */,
+				4DF1611024A7CA040046FE1D /* SendMoneyCollectionViewCell.swift in Sources */,
+				4D10F99724A8A3FB00759FCC /* FSPagerViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D56D11924A5D42B0018EF17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D56D11A24A5D42B0018EF17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D56D12124A5D42F0018EF17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D56D12224A5D42F0018EF17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D56D12524A5D42F0018EF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D56D12624A5D42F0018EF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D56D12824A5D42F0018EF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALKA.SendMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D56D12924A5D42F0018EF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALKA.SendMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D56D10B24A5D42A0018EF17 /* Build configuration list for PBXProject "SendMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D56D12524A5D42F0018EF17 /* Debug */,
+				4D56D12624A5D42F0018EF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D56D12724A5D42F0018EF17 /* Build configuration list for PBXNativeTarget "SendMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D56D12824A5D42F0018EF17 /* Debug */,
+				4D56D12924A5D42F0018EF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D56D11C24A5D42B0018EF17 /* SendMoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D56D11D24A5D42B0018EF17 /* SendMoney.xcdatamodel */,
+			);
+			currentVersion = 4D56D11D24A5D42B0018EF17 /* SendMoney.xcdatamodel */;
+			path = SendMoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D56D10824A5D42A0018EF17 /* Project object */;
+}

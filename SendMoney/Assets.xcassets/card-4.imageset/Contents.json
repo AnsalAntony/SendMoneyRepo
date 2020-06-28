@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Download-ATM-Card-PNG-File.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Download-ATM-Card-PNG-File-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Download-ATM-Card-PNG-File-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
